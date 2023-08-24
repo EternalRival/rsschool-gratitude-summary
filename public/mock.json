@@ -1,0 +1,1806 @@
+{
+  "data": {
+    "content": [
+      {
+        "id": 22548,
+        "comment": "Thanks for helping with redirect problem on Netlify!\nGood Luck!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T13:43:16.822Z",
+        "user_id": 9061,
+        "githubId": "hellcat0147",
+        "firstName": "Ilya",
+        "lastName": "Bukhairov",
+        "countryName": "Uzbekistan",
+        "cityName": "Tashkent",
+        "activist": false,
+        "from": {
+          "githubId": "roiers",
+          "firstName": "Roman",
+          "lastName": "iermoliuk"
+        }
+      },
+      {
+        "id": 22547,
+        "comment": "I express my gratitude for your careful assessment of my work, constructive approach and the opportunity to discuss controversial issues. Thank you!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T12:08:00.311Z",
+        "user_id": 1032,
+        "githubId": "spiritforest",
+        "firstName": "Dzmitry",
+        "lastName": "Zakhar",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "oibioib",
+          "firstName": "Pavel",
+          "lastName": "Bodal"
+        }
+      },
+      {
+        "id": 22546,
+        "comment": "Благодарю за отзывчивость:)",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-24T11:07:38.224Z",
+        "user_id": 71935,
+        "githubId": "michaelsmorgon",
+        "firstName": "Mikhail",
+        "lastName": "Zmahar",
+        "countryName": "Poland",
+        "cityName": "Białystok",
+        "activist": null,
+        "from": {
+          "githubId": "sadmearise",
+          "firstName": "Nikita",
+          "lastName": "Khrustalev"
+        }
+      },
+      {
+        "id": 22545,
+        "comment": "спасибо за подробную проверку и помощь с ошибками)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T10:24:28.469Z",
+        "user_id": 61104,
+        "githubId": "alyona8891",
+        "firstName": "Alyona",
+        "lastName": "Shupenyova",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "kagapitova",
+          "firstName": "Ksenia",
+          "lastName": "Agapitova"
+        }
+      },
+      {
+        "id": 22544,
+        "comment": "Спасибо за подсказку по настройке переменных окружения для деплоя в vercel!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T08:51:29.880Z",
+        "user_id": 69165,
+        "githubId": "istiniel",
+        "firstName": "Edmon",
+        "lastName": "Kazaryan",
+        "countryName": "Russia",
+        "cityName": "Krasnodar",
+        "activist": null,
+        "from": {
+          "githubId": "anastakozz",
+          "firstName": "Anastasiya",
+          "lastName": "Kozlova"
+        }
+      },
+      {
+        "id": 22542,
+        "comment": "Спасибо за помощь в поиске ошибок в приложении! И за супер-быстрый ответ)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T07:51:18.663Z",
+        "user_id": 60332,
+        "githubId": "eternalrival",
+        "firstName": "Roman",
+        "lastName": "Ermishin",
+        "countryName": "Russia",
+        "cityName": "Penza",
+        "activist": null,
+        "from": {
+          "githubId": "anastakozz",
+          "firstName": "Anastasiya",
+          "lastName": "Kozlova"
+        }
+      },
+      {
+        "id": 22543,
+        "comment": "Спасибо за помощь в поиске ошибок в приложении! И за супер-быстрый ответ)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T07:51:18.663Z",
+        "user_id": 74527,
+        "githubId": "dedushkaalex",
+        "firstName": "Aleksei",
+        "lastName": "Erchenko",
+        "countryName": "Russia",
+        "cityName": "Bryansk",
+        "activist": null,
+        "from": {
+          "githubId": "anastakozz",
+          "firstName": "Anastasiya",
+          "lastName": "Kozlova"
+        }
+      },
+      {
+        "id": 22541,
+        "comment": "Спасибо за подсказку по построению запроса для CommerceTools!)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-24T07:11:43.794Z",
+        "user_id": 72344,
+        "githubId": "katerina-kor",
+        "firstName": "Katsiaryna",
+        "lastName": "Karabeika",
+        "countryName": "Georgia",
+        "cityName": "Batumi",
+        "activist": null,
+        "from": {
+          "githubId": "ksu1ven",
+          "firstName": "Aksana",
+          "lastName": "Yakhimovich"
+        }
+      },
+      {
+        "id": 22540,
+        "comment": "Thank you for your attention to detail",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T20:06:29.999Z",
+        "user_id": 17156,
+        "githubId": "taraikovich",
+        "firstName": "IHAR",
+        "lastName": "TARAIKOVICH",
+        "countryName": "Georgia",
+        "cityName": "Batumi",
+        "activist": false,
+        "from": {
+          "githubId": "itzaur",
+          "firstName": "Pavel",
+          "lastName": "Drazdou"
+        }
+      },
+      {
+        "id": 22539,
+        "comment": "Thanks to you and to entire NodeJS 2023 Q2 team for excellent organization of studying process, for interesting and sometimes quite hard tasks, and for reviews of student works which were very useful and thought provoking. BTW your TypeScript lectures were very helpful for me when I was student of JS/TS Frontend course. Now I recommend them to my mentees. You are amazing person and great teacher. Best wishes.",
+        "badgeId": "Hero",
+        "date": "2023-08-23T19:20:13.884Z",
+        "user_id": 5481,
+        "githubId": "alreadybored",
+        "firstName": "Maksim",
+        "lastName": "Shylau",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "gentoosiast",
+          "firstName": "Sergey",
+          "lastName": "Koksharov"
+        }
+      },
+      {
+        "id": 22538,
+        "comment": "Спасибо за помощь в поиске value",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T17:11:24.196Z",
+        "user_id": 37676,
+        "githubId": "bumble-sakh",
+        "firstName": "Igor",
+        "lastName": "Asessorov",
+        "countryName": "Russia",
+        "cityName": "Korsakov",
+        "activist": false,
+        "from": {
+          "githubId": "mrrobot911",
+          "firstName": "Jack",
+          "lastName": "Evseev"
+        }
+      },
+      {
+        "id": 22537,
+        "comment": "большое спасибо, за выявление ошибок и подробное их описание) ",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T14:55:43.874Z",
+        "user_id": 68945,
+        "githubId": "lev1ossa",
+        "firstName": "Alexandr",
+        "lastName": "Korobeynikov",
+        "countryName": "Kazakhstan",
+        "cityName": "Almaty",
+        "activist": null,
+        "from": {
+          "githubId": "kagapitova",
+          "firstName": "Ksenia",
+          "lastName": "Agapitova"
+        }
+      },
+      {
+        "id": 22536,
+        "comment": "Спасибо за помощь с датой в коммитах git",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T14:31:36.017Z",
+        "user_id": 51874,
+        "githubId": "gentoosiast",
+        "firstName": "Sergey",
+        "lastName": "Koksharov",
+        "countryName": "Russia",
+        "cityName": "Kirishi",
+        "activist": null,
+        "from": {
+          "githubId": "besbook",
+          "firstName": "Marina",
+          "lastName": "Bastrikova"
+        }
+      },
+      {
+        "id": 22535,
+        "comment": "ОГРОМНОЕ СПАСИБО! За помощь в поимке неуловимого Токена!!! Я его словил)))",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T13:18:02.875Z",
+        "user_id": 60642,
+        "githubId": "yaroslavagd",
+        "firstName": "Yaroslava",
+        "lastName": "Hryzadubova",
+        "countryName": "Germany",
+        "cityName": "Berlin",
+        "activist": null,
+        "from": {
+          "githubId": "mat-kon",
+          "firstName": "Konstantin",
+          "lastName": "Matveev"
+        }
+      },
+      {
+        "id": 22534,
+        "comment": "for help with where parameters in productProjections",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T12:37:09.494Z",
+        "user_id": 72344,
+        "githubId": "katerina-kor",
+        "firstName": "Katsiaryna",
+        "lastName": "Karabeika",
+        "countryName": "Georgia",
+        "cityName": "Batumi",
+        "activist": null,
+        "from": {
+          "githubId": "elina-nep",
+          "firstName": "Elina",
+          "lastName": "Karseeva"
+        }
+      },
+      {
+        "id": 22533,
+        "comment": "Большое спасибо за проверку задания и перепроверку после исправлений, за то, что были на связи, и за потраченное время! Наша команда вам очень признательна!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T11:01:28.444Z",
+        "user_id": 76268,
+        "githubId": "howl404",
+        "firstName": "Howl",
+        "lastName": "",
+        "countryName": "Lithuania",
+        "cityName": "Vilnius",
+        "activist": null,
+        "from": {
+          "githubId": "allaprischepa",
+          "firstName": "Alla",
+          "lastName": "Prishchepa"
+        }
+      },
+      {
+        "id": 22532,
+        "comment": "Всегда готова помочь с ответом на возникший вопрос, даже вопросы по мелочи не игнорирует))) Спасибо!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T10:39:55.549Z",
+        "user_id": 49056,
+        "githubId": "brusnichkina",
+        "firstName": "Anastasiya",
+        "lastName": "Kavalenak",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "katushevaalbina",
+          "firstName": "Albina",
+          "lastName": "Katusheva"
+        }
+      },
+      {
+        "id": 22531,
+        "comment": "Спасибо за наглядные видео по интерактиву в library-part3 !!!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T08:59:34.672Z",
+        "user_id": 57094,
+        "githubId": "alekseng",
+        "firstName": "Aleksandr",
+        "lastName": "Chernichkin",
+        "countryName": "Russia",
+        "cityName": "Volgograd",
+        "activist": null,
+        "from": {
+          "githubId": "rednata",
+          "firstName": "Natalya",
+          "lastName": "Makarova"
+        }
+      },
+      {
+        "id": 22530,
+        "comment": "for help and video in library 3",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T08:53:16.190Z",
+        "user_id": 57094,
+        "githubId": "alekseng",
+        "firstName": "Aleksandr",
+        "lastName": "Chernichkin",
+        "countryName": "Russia",
+        "cityName": "Volgograd",
+        "activist": null,
+        "from": {
+          "githubId": "yuliyavoronovich",
+          "firstName": "Jlia",
+          "lastName": "Voronovich"
+        }
+      },
+      {
+        "id": 22529,
+        "comment": "for help in explaining user active library 3",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T08:52:05.057Z",
+        "user_id": 66683,
+        "githubId": "skayer81",
+        "firstName": "Sergey",
+        "lastName": "Seleznev",
+        "countryName": "Russia",
+        "cityName": "Rybinsk",
+        "activist": null,
+        "from": {
+          "githubId": "yuliyavoronovich",
+          "firstName": "Jlia",
+          "lastName": "Voronovich"
+        }
+      },
+      {
+        "id": 22528,
+        "comment": "Спасибо , за классное интервью, креативные  задания, и понятные пояснения на заданные вопросы !",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T08:31:51.725Z",
+        "user_id": 19792,
+        "githubId": "nat6",
+        "firstName": "Natalia",
+        "lastName": "Antonova",
+        "countryName": "Russia",
+        "cityName": "Saint Petersburg",
+        "activist": false,
+        "from": {
+          "githubId": "alexdrags",
+          "firstName": "Alexsander",
+          "lastName": ""
+        }
+      },
+      {
+        "id": 22527,
+        "comment": "За приятный разговор и передачу опыта.",
+        "badgeId": "Great_speaker",
+        "date": "2023-08-23T08:21:17.106Z",
+        "user_id": 38655,
+        "githubId": "hi-bi",
+        "firstName": "Mikalai",
+        "lastName": "Homza",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "bambloov",
+          "firstName": "Egor",
+          "lastName": "Gavrilenko"
+        }
+      },
+      {
+        "id": 22526,
+        "comment": "спасибо за помощь и терпение)))",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T06:13:13.401Z",
+        "user_id": 70456,
+        "githubId": "mideli37",
+        "firstName": "Anastasiia",
+        "lastName": "Muzipova",
+        "countryName": "Ukraine",
+        "cityName": "Chornomorsk",
+        "activist": null,
+        "from": {
+          "githubId": "ihnatta",
+          "firstName": "Hanna ",
+          "lastName": "Ihnatieva "
+        }
+      },
+      {
+        "id": 22525,
+        "comment": "спасибо за помощь)))))",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T06:12:15.176Z",
+        "user_id": 79891,
+        "githubId": "dariatur",
+        "firstName": "Darya",
+        "lastName": "Tur",
+        "countryName": "Lithuania",
+        "cityName": "Lithuania",
+        "activist": null,
+        "from": {
+          "githubId": "ihnatta",
+          "firstName": "Hanna ",
+          "lastName": "Ihnatieva "
+        }
+      },
+      {
+        "id": 22524,
+        "comment": "Thank you for the detailed cross-check)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-23T05:17:10.251Z",
+        "user_id": 47484,
+        "githubId": "labatsevich",
+        "firstName": "Yury",
+        "lastName": "Labatsevich",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "yumentsel",
+          "firstName": "Yuliya",
+          "lastName": "Mentsel"
+        }
+      },
+      {
+        "id": 22523,
+        "comment": "I really appreciate you for your support and help! Thank you and good luck in your life after the course :) ",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-22T21:49:52.284Z",
+        "user_id": 77312,
+        "githubId": "semoleg1986",
+        "firstName": "Oleg",
+        "lastName": "Semenov",
+        "countryName": "Türkiye",
+        "cityName": "Antalya",
+        "activist": null,
+        "from": {
+          "githubId": "istairina",
+          "firstName": "Irina",
+          "lastName": "Migunova"
+        }
+      },
+      {
+        "id": 22522,
+        "comment": "Большое спасибо за отзывчивость:)",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-22T19:19:51.659Z",
+        "user_id": 74537,
+        "githubId": "ana-ma-web",
+        "firstName": "Anastasia",
+        "lastName": "Mataeva",
+        "countryName": "Russia",
+        "cityName": "Moscow",
+        "activist": null,
+        "from": {
+          "githubId": "sadmearise",
+          "firstName": "Nikita",
+          "lastName": "Khrustalev"
+        }
+      },
+      {
+        "id": 22521,
+        "comment": "Thank you so much for helping me to understand my mistakes :sunflower:",
+        "badgeId": "Thank_you",
+        "date": "2023-08-22T15:31:23.036Z",
+        "user_id": 21353,
+        "githubId": "newalexey",
+        "firstName": "Alexey",
+        "lastName": "Krupenia",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "juliabel5",
+          "firstName": "Yuliya",
+          "lastName": "Chekan"
+        }
+      },
+      {
+        "id": 22520,
+        "comment": "Огромное спасибо за ссылку в дискорде на видео по созданию карусели.\nБлагодаря ей я наконец-то сдвинулась с места!!!\n",
+        "badgeId": "Thank_you",
+        "date": "2023-08-22T13:06:30.754Z",
+        "user_id": 80963,
+        "githubId": "eugeniish",
+        "firstName": "Evgenii",
+        "lastName": "Shmerko",
+        "countryName": "Russia",
+        "cityName": "Volgograd",
+        "activist": null,
+        "from": {
+          "githubId": "ludmilasokol",
+          "firstName": "Liudmila",
+          "lastName": "Sokolovskaia"
+        }
+      },
+      {
+        "id": 22519,
+        "comment": "Спасибо за собранный билд! <3",
+        "badgeId": "Thank_you",
+        "date": "2023-08-22T09:21:53.331Z",
+        "user_id": 75622,
+        "githubId": "likekugi",
+        "firstName": "Ilya",
+        "lastName": "Shcherbakov",
+        "countryName": "Russia",
+        "cityName": "Surgut",
+        "activist": null,
+        "from": {
+          "githubId": "evgueniazet",
+          "firstName": "Yauheniya",
+          "lastName": "Zialenka"
+        }
+      },
+      {
+        "id": 22518,
+        "comment": "Спасла от схождения с ума из-за поиска ошибки там, где её нет! Указала на то, что для корректной работы роутинга нужно webpack server перенастраивать и на web-сервере файл специальный иметь, генерируемый через построение или подсовываемый с самим билдом.",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-22T00:23:46.781Z",
+        "user_id": 69350,
+        "githubId": "milashakas",
+        "firstName": "Milana",
+        "lastName": "Kasumava",
+        "countryName": "Poland",
+        "cityName": "Łódź",
+        "activist": null,
+        "from": {
+          "githubId": "spacehummer",
+          "firstName": "Yuriy",
+          "lastName": "Lavrushin"
+        }
+      },
+      {
+        "id": 22517,
+        "comment": "Сеньор починил сеньорские баги ngrx.\nСпасибо большое.",
+        "badgeId": "Hero",
+        "date": "2023-08-22T00:22:36.113Z",
+        "user_id": 8133,
+        "githubId": "pomakom",
+        "firstName": "Raman",
+        "lastName": "Kamarou",
+        "countryName": "Poland",
+        "cityName": "Kraków",
+        "activist": false,
+        "from": {
+          "githubId": "adybah",
+          "firstName": "Andrey",
+          "lastName": "Nazarov"
+        }
+      },
+      {
+        "id": 22516,
+        "comment": "И еще раз поклон в ноги",
+        "badgeId": "Expert_help",
+        "date": "2023-08-22T00:22:35.325Z",
+        "user_id": 8133,
+        "githubId": "pomakom",
+        "firstName": "Raman",
+        "lastName": "Kamarou",
+        "countryName": "Poland",
+        "cityName": "Kraków",
+        "activist": false,
+        "from": {
+          "githubId": "deepenguin",
+          "firstName": "Kristina",
+          "lastName": "Chekhova"
+        }
+      },
+      {
+        "id": 22515,
+        "comment": "Невероятная благодарность за помощь в осозназнии в ngrx",
+        "badgeId": "Hero",
+        "date": "2023-08-22T00:03:59.696Z",
+        "user_id": 8133,
+        "githubId": "pomakom",
+        "firstName": "Raman",
+        "lastName": "Kamarou",
+        "countryName": "Poland",
+        "cityName": "Kraków",
+        "activist": false,
+        "from": {
+          "githubId": "alwaysadevzero",
+          "firstName": "Anton",
+          "lastName": "Tarakanov"
+        }
+      },
+      {
+        "id": 22514,
+        "comment": "Решает проблемы одним взглядом",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T20:51:04.937Z",
+        "user_id": 8133,
+        "githubId": "pomakom",
+        "firstName": "Raman",
+        "lastName": "Kamarou",
+        "countryName": "Poland",
+        "cityName": "Kraków",
+        "activist": false,
+        "from": {
+          "githubId": "aleksaroad",
+          "firstName": "Aleksandra",
+          "lastName": "Bezrodnaia"
+        }
+      },
+      {
+        "id": 22513,
+        "comment": "Спасибо за экспертный глаз",
+        "badgeId": "Thank_you",
+        "date": "2023-08-21T20:50:06.423Z",
+        "user_id": 8133,
+        "githubId": "pomakom",
+        "firstName": "Raman",
+        "lastName": "Kamarou",
+        "countryName": "Poland",
+        "cityName": "Kraków",
+        "activist": false,
+        "from": {
+          "githubId": "deepenguin",
+          "firstName": "Kristina",
+          "lastName": "Chekhova"
+        }
+      },
+      {
+        "id": 22512,
+        "comment": "Огромное спасибо за помощь с обработкой токена через SDK!",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T20:37:51.605Z",
+        "user_id": 44255,
+        "githubId": "sviatl",
+        "firstName": "Sviatlana",
+        "lastName": "Yurusava",
+        "countryName": "Belarus",
+        "cityName": "Baranovichi",
+        "activist": null,
+        "from": {
+          "githubId": "yuriy113",
+          "firstName": "Yuriy",
+          "lastName": ""
+        }
+      },
+      {
+        "id": 22511,
+        "comment": "Thank you again for your help with JS functions!",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-21T19:41:03.805Z",
+        "user_id": 82608,
+        "githubId": "webdevby",
+        "firstName": "Artsiom",
+        "lastName": "Uradau",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "vh135",
+          "firstName": "Vadim",
+          "lastName": "Pospelov"
+        }
+      },
+      {
+        "id": 22510,
+        "comment": "Спасибо большое за инструкцию по алгоритмическим задачам! <3",
+        "badgeId": "Thank_you",
+        "date": "2023-08-21T17:51:41.473Z",
+        "user_id": 13003,
+        "githubId": "bastaynav",
+        "firstName": "Ivan",
+        "lastName": "Bastrakov",
+        "countryName": "Russia",
+        "cityName": "Kirov",
+        "activist": false,
+        "from": {
+          "githubId": "coffeekosatka",
+          "firstName": "Viktoryia",
+          "lastName": "Herasimenka"
+        }
+      },
+      {
+        "id": 22509,
+        "comment": "Thanks for your time and helpful advices!",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-21T13:54:39.019Z",
+        "user_id": 43628,
+        "githubId": "kosta4310",
+        "firstName": "Kostiantyn",
+        "lastName": "Pavlov",
+        "countryName": "Ukraine",
+        "cityName": "Krivoy Rog",
+        "activist": null,
+        "from": {
+          "githubId": "ivanmakarishchev",
+          "firstName": "Ivan",
+          "lastName": "Makaryshchev"
+        }
+      },
+      {
+        "id": 22508,
+        "comment": "Сяби за помощь с зеркальцем :heart_on_fire: ",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T13:23:15.761Z",
+        "user_id": 37166,
+        "githubId": "kristibo",
+        "firstName": "Kristina",
+        "lastName": "Borokh",
+        "countryName": "Russia",
+        "cityName": "Saint Petersburg",
+        "activist": false,
+        "from": {
+          "githubId": "kleostro",
+          "firstName": "Maxim",
+          "lastName": "Zabaluev"
+        }
+      },
+      {
+        "id": 22507,
+        "comment": "спасибо за помощь с токеном 😊 ",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T12:03:23.706Z",
+        "user_id": 55757,
+        "githubId": "craftsw0man",
+        "firstName": "Natalia",
+        "lastName": "Grischenok",
+        "countryName": "Russia",
+        "cityName": "Kazan",
+        "activist": null,
+        "from": {
+          "githubId": "maleryvalery",
+          "firstName": "Valeriia",
+          "lastName": "Melnikova"
+        }
+      },
+      {
+        "id": 22506,
+        "comment": "спасибо за помощь с токеном 😊 ",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T12:03:23.706Z",
+        "user_id": 68302,
+        "githubId": "mekanes",
+        "firstName": "Mekan",
+        "lastName": "Esenjanov",
+        "countryName": "Belarus",
+        "cityName": "Borisov",
+        "activist": null,
+        "from": {
+          "githubId": "maleryvalery",
+          "firstName": "Valeriia",
+          "lastName": "Melnikova"
+        }
+      },
+      {
+        "id": 22505,
+        "comment": "thank you very much for helping with problem that i was stuck for 2 weeks ",
+        "badgeId": "Thank_you",
+        "date": "2023-08-21T09:36:35.740Z",
+        "user_id": 34968,
+        "githubId": "bambloov",
+        "firstName": "Egor",
+        "lastName": "Gavrilenko",
+        "countryName": "Russia",
+        "cityName": "Zelenograd",
+        "activist": false,
+        "from": {
+          "githubId": "eratiani",
+          "firstName": "erekle",
+          "lastName": "ratiani"
+        }
+      },
+      {
+        "id": 22504,
+        "comment": "Огромное спасибо Ярославе за помощь с token!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-21T07:55:13.818Z",
+        "user_id": 60642,
+        "githubId": "yaroslavagd",
+        "firstName": "Yaroslava",
+        "lastName": "Hryzadubova",
+        "countryName": "Germany",
+        "cityName": "Berlin",
+        "activist": null,
+        "from": {
+          "githubId": "makaevaelena",
+          "firstName": "Elena",
+          "lastName": "Makaeva"
+        }
+      },
+      {
+        "id": 22503,
+        "comment": "Спасибо за всестороннюю поддержку и помощь по любым вопросам <3",
+        "badgeId": "Expert_help",
+        "date": "2023-08-21T03:43:22.753Z",
+        "user_id": 640,
+        "githubId": "deepenguin",
+        "firstName": "Kristina",
+        "lastName": "Chekhova",
+        "countryName": "Georgia",
+        "cityName": "Tbilisi",
+        "activist": null,
+        "from": {
+          "githubId": "aleksaroad",
+          "firstName": "Aleksandra",
+          "lastName": "Bezrodnaia"
+        }
+      },
+      {
+        "id": 22502,
+        "comment": "My token Hero         ",
+        "badgeId": "Hero",
+        "date": "2023-08-21T00:18:43.872Z",
+        "user_id": 640,
+        "githubId": "deepenguin",
+        "firstName": "Kristina",
+        "lastName": "Chekhova",
+        "countryName": "Georgia",
+        "cityName": "Tbilisi",
+        "activist": null,
+        "from": {
+          "githubId": "alwaysadevzero",
+          "firstName": "Anton",
+          "lastName": "Tarakanov"
+        }
+      },
+      {
+        "id": 22501,
+        "comment": "спасибо, что находишь время на нас, делишься опытом и best practice 🫶",
+        "badgeId": "Expert_help",
+        "date": "2023-08-20T14:07:26.944Z",
+        "user_id": 15998,
+        "githubId": "vanessagrapefruit",
+        "firstName": "Aliaksei",
+        "lastName": "Rachkouski",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "maleryvalery",
+          "firstName": "Valeriia",
+          "lastName": "Melnikova"
+        }
+      },
+      {
+        "id": 22500,
+        "comment": "спасибо за код ревью @<210486756154408961>",
+        "badgeId": "Thank_you",
+        "date": "2023-08-20T13:47:26.735Z",
+        "user_id": 21435,
+        "githubId": "mielomanka",
+        "firstName": "Nataliya",
+        "lastName": "Belyaeva",
+        "countryName": "Belarus",
+        "cityName": "Hrodna",
+        "activist": false,
+        "from": {
+          "githubId": "vktrenokh",
+          "firstName": "Viktor",
+          "lastName": "Kuptsov"
+        }
+      },
+      {
+        "id": 22499,
+        "comment": "Спасибо большое тебе за наводку с анимацией табов!!!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-20T12:03:33.615Z",
+        "user_id": 78977,
+        "githubId": "yuliyavoronovich",
+        "firstName": "Jlia",
+        "lastName": "Voronovich",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "marblehands",
+          "firstName": "Anna",
+          "lastName": "Chebysheva"
+        }
+      },
+      {
+        "id": 22498,
+        "comment": "За ответы на вопросы!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-20T09:54:19.600Z",
+        "user_id": 57094,
+        "githubId": "alekseng",
+        "firstName": "Aleksandr",
+        "lastName": "Chernichkin",
+        "countryName": "Russia",
+        "cityName": "Volgograd",
+        "activist": null,
+        "from": {
+          "githubId": "zarembochka",
+          "firstName": "Liubou",
+          "lastName": "Hadunova"
+        }
+      },
+      {
+        "id": 22497,
+        "comment": "Спасибо за решение, как достать токен авторизации)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T22:47:33.338Z",
+        "user_id": 60642,
+        "githubId": "yaroslavagd",
+        "firstName": "Yaroslava",
+        "lastName": "Hryzadubova",
+        "countryName": "Germany",
+        "cityName": "Berlin",
+        "activist": null,
+        "from": {
+          "githubId": "ksu1ven",
+          "firstName": "Aksana",
+          "lastName": "Yakhimovich"
+        }
+      },
+      {
+        "id": 22496,
+        "comment": "ty for finding all the references which you take out like a magician from a hat :Р ^^",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T13:55:05.323Z",
+        "user_id": 55757,
+        "githubId": "craftsw0man",
+        "firstName": "Natalia",
+        "lastName": "Grischenok",
+        "countryName": "Russia",
+        "cityName": "Kazan",
+        "activist": null,
+        "from": {
+          "githubId": "lyutails",
+          "firstName": "Lyusya",
+          "lastName": "Cool"
+        }
+      },
+      {
+        "id": 22495,
+        "comment": "ty for being with us and for photo that quickly saved all our current task's dreams and for working extremely hard these two weeks ^^",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T13:51:55.508Z",
+        "user_id": 75073,
+        "githubId": "yanabel1996",
+        "firstName": "Iana",
+        "lastName": "Belousova",
+        "countryName": "Czechia",
+        "cityName": "Plzeň",
+        "activist": null,
+        "from": {
+          "githubId": "lyutails",
+          "firstName": "Lyusya",
+          "lastName": "Cool"
+        }
+      },
+      {
+        "id": 22494,
+        "comment": "Огромное спасибо, два дня мучился...",
+        "badgeId": "Expert_help",
+        "date": "2023-08-19T13:13:41.731Z",
+        "user_id": 17562,
+        "githubId": "spanb4",
+        "firstName": "Dzmitry",
+        "lastName": "Yarmoshkin",
+        "countryName": "Belarus",
+        "cityName": "Orsha",
+        "activist": false,
+        "from": {
+          "githubId": "maximiloi",
+          "firstName": "Maksim",
+          "lastName": "Toroshchin"
+        }
+      },
+      {
+        "id": 22493,
+        "comment": "Большое спасибо за стрим и за ответы на вопросы, мы понимаем как это тяжело, держись!",
+        "badgeId": "Good_job",
+        "date": "2023-08-19T12:43:43.740Z",
+        "user_id": 8039,
+        "githubId": "valerydluski",
+        "firstName": "Valery",
+        "lastName": "Dluski",
+        "countryName": "Poland",
+        "cityName": "Gdańsk",
+        "activist": false,
+        "from": {
+          "githubId": "wellder00",
+          "firstName": "Vladislav",
+          "lastName": "Tischenko"
+        }
+      },
+      {
+        "id": 22492,
+        "comment": "Большое спасибо за то что теперь у  есть возможность творить и чудить)) ",
+        "badgeId": "Hero",
+        "date": "2023-08-19T12:26:35.416Z",
+        "user_id": 75073,
+        "githubId": "yanabel1996",
+        "firstName": "Iana",
+        "lastName": "Belousova",
+        "countryName": "Czechia",
+        "cityName": "Plzeň",
+        "activist": null,
+        "from": {
+          "githubId": "craftsw0man",
+          "firstName": "Natalia",
+          "lastName": "Grischenok"
+        }
+      },
+      {
+        "id": 22491,
+        "comment": "Большое спасибо за  решение ошибки  и помощь с  тестами !",
+        "badgeId": "Expert_help",
+        "date": "2023-08-19T12:25:08.591Z",
+        "user_id": 50655,
+        "githubId": "qeteq",
+        "firstName": "Eugene",
+        "lastName": "",
+        "countryName": "Georgia",
+        "cityName": "Tbilisi",
+        "activist": null,
+        "from": {
+          "githubId": "craftsw0man",
+          "firstName": "Natalia",
+          "lastName": "Grischenok"
+        }
+      },
+      {
+        "id": 22490,
+        "comment": "Большое спасибо за стрим ,и разбор многих вопросов",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T12:23:17.869Z",
+        "user_id": 8039,
+        "githubId": "valerydluski",
+        "firstName": "Valery",
+        "lastName": "Dluski",
+        "countryName": "Poland",
+        "cityName": "Gdańsk",
+        "activist": false,
+        "from": {
+          "githubId": "craftsw0man",
+          "firstName": "Natalia",
+          "lastName": "Grischenok"
+        }
+      },
+      {
+        "id": 22489,
+        "comment": "Thank you for everything you do on this course!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T12:10:56.207Z",
+        "user_id": 8039,
+        "githubId": "valerydluski",
+        "firstName": "Valery",
+        "lastName": "Dluski",
+        "countryName": "Poland",
+        "cityName": "Gdańsk",
+        "activist": false,
+        "from": {
+          "githubId": "yaroslavagd",
+          "firstName": "Yaroslava",
+          "lastName": "Hryzadubova"
+        }
+      },
+      {
+        "id": 22488,
+        "comment": "thank you for all that you do for students🫶☀️",
+        "badgeId": "Hero",
+        "date": "2023-08-19T11:56:10.900Z",
+        "user_id": 8039,
+        "githubId": "valerydluski",
+        "firstName": "Valery",
+        "lastName": "Dluski",
+        "countryName": "Poland",
+        "cityName": "Gdańsk",
+        "activist": false,
+        "from": {
+          "githubId": "maleryvalery",
+          "firstName": "Valeriia",
+          "lastName": "Melnikova"
+        }
+      },
+      {
+        "id": 22487,
+        "comment": "Хочу поблагодарить Максима за помощь, которую он оказывает новичкам. За доброжелательное наставничество и своевременные ответы.",
+        "badgeId": "Expert_help",
+        "date": "2023-08-19T10:49:34.723Z",
+        "user_id": 80955,
+        "githubId": "kleostro",
+        "firstName": "Maxim",
+        "lastName": "Zabaluev",
+        "countryName": "Russia",
+        "cityName": "Moscow",
+        "activist": null,
+        "from": {
+          "githubId": "wtc066",
+          "firstName": "Elena",
+          "lastName": "Tsivinskaya"
+        }
+      },
+      {
+        "id": 22486,
+        "comment": "thank you for the stream waiting for the next one ^^",
+        "badgeId": "Thank_you",
+        "date": "2023-08-19T10:29:00.518Z",
+        "user_id": 8039,
+        "githubId": "valerydluski",
+        "firstName": "Valery",
+        "lastName": "Dluski",
+        "countryName": "Poland",
+        "cityName": "Gdańsk",
+        "activist": false,
+        "from": {
+          "githubId": "lyutails",
+          "firstName": "Lyusya",
+          "lastName": "Cool"
+        }
+      },
+      {
+        "id": 22485,
+        "comment": "Thank you very much, your review is, as always, top-notch 👌",
+        "badgeId": "Outstanding_work",
+        "date": "2023-08-19T08:36:42.877Z",
+        "user_id": 58562,
+        "githubId": "nataliagulko",
+        "firstName": "Natalia",
+        "lastName": "Gulko",
+        "countryName": "Turkey",
+        "cityName": "Antalya",
+        "activist": null,
+        "from": {
+          "githubId": "valerydluski",
+          "firstName": "Valery",
+          "lastName": "Dluski"
+        }
+      },
+      {
+        "id": 22484,
+        "comment": "I'm sorry for the stolen evening and thank you for being there for me :purple_heart:",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T22:16:37.066Z",
+        "user_id": 21014,
+        "githubId": "sodapng",
+        "firstName": "Kamran",
+        "lastName": "Ismailov",
+        "countryName": "Azerbaijan",
+        "cityName": "Baku",
+        "activist": false,
+        "from": {
+          "githubId": "juliabel5",
+          "firstName": "Yuliya",
+          "lastName": "Chekan"
+        }
+      },
+      {
+        "id": 22483,
+        "comment": "thanks for introduction to CI/CD tools",
+        "badgeId": "Expert_help",
+        "date": "2023-08-18T20:44:13.836Z",
+        "user_id": 19609,
+        "githubId": "teleuzi",
+        "firstName": "Yauheni",
+        "lastName": "Tsurankou",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "mindr17",
+          "firstName": "Andrey",
+          "lastName": ""
+        }
+      },
+      {
+        "id": 22482,
+        "comment": "Thanks for taking the time to sort out my docker issue",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T17:28:51.178Z",
+        "user_id": 43628,
+        "githubId": "kosta4310",
+        "firstName": "Kostiantyn",
+        "lastName": "Pavlov",
+        "countryName": "Ukraine",
+        "cityName": "Krivoy Rog",
+        "activist": null,
+        "from": {
+          "githubId": "arterixs",
+          "firstName": "Artem",
+          "lastName": "Ivanov"
+        }
+      },
+      {
+        "id": 22481,
+        "comment": "Большое спасибо за ревью!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T16:56:25.715Z",
+        "user_id": 29789,
+        "githubId": "anastasiya220394",
+        "firstName": "Anastasiya",
+        "lastName": "Nitsiyeuskaya",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "f4hr",
+          "firstName": "Ilya",
+          "lastName": "Fakhrutdinov"
+        }
+      },
+      {
+        "id": 22480,
+        "comment": "Thanks a lot for your help with adaptive issues!",
+        "badgeId": "Expert_help",
+        "date": "2023-08-18T16:26:06.041Z",
+        "user_id": 82608,
+        "githubId": "webdevby",
+        "firstName": "Artsiom",
+        "lastName": "Uradau",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "vh135",
+          "firstName": "Vadim",
+          "lastName": "Pospelov"
+        }
+      },
+      {
+        "id": 22479,
+        "comment": "и снова спасибо преспасибо, у тебя определенно талант учительский. помогаешь думать в нужном направлении(тут должен быть счастливый смайлик))))",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T14:16:13.902Z",
+        "user_id": 70456,
+        "githubId": "mideli37",
+        "firstName": "Anastasiia",
+        "lastName": "Muzipova",
+        "countryName": "Ukraine",
+        "cityName": "Chornomorsk",
+        "activist": null,
+        "from": {
+          "githubId": "ihnatta",
+          "firstName": "Hanna ",
+          "lastName": "Ihnatieva "
+        }
+      },
+      {
+        "id": 22478,
+        "comment": "I officially declare you the world's best teammate. Thanks for not running away.  :purple_heart:",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T14:15:25.803Z",
+        "user_id": 54383,
+        "githubId": "laevus92",
+        "firstName": "Denis",
+        "lastName": "Boldyrev",
+        "countryName": "Russia",
+        "cityName": "Lipetsk",
+        "activist": null,
+        "from": {
+          "githubId": "juliabel5",
+          "firstName": "Yuliya",
+          "lastName": "Chekan"
+        }
+      },
+      {
+        "id": 22477,
+        "comment": "Лови благодарочку тебе за традиционное дежурство в чатах и пояснительную бригаду по ТЗ library#3 :heartpulse: ",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T13:12:58.703Z",
+        "user_id": 80955,
+        "githubId": "kleostro",
+        "firstName": "Maxim",
+        "lastName": "Zabaluev",
+        "countryName": "Russia",
+        "cityName": "Moscow",
+        "activist": null,
+        "from": {
+          "githubId": "marblehands",
+          "firstName": "Anna",
+          "lastName": "Chebysheva"
+        }
+      },
+      {
+        "id": 22476,
+        "comment": "Thank you for helping with understanding how to work with shipping and billing addresses ! 🐇 such a quick answer to my question ⚡⚡⚡",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-18T11:45:50.631Z",
+        "user_id": 75073,
+        "githubId": "yanabel1996",
+        "firstName": "Iana",
+        "lastName": "Belousova",
+        "countryName": "Czechia",
+        "cityName": "Plzeň",
+        "activist": null,
+        "from": {
+          "githubId": "sosukii",
+          "firstName": "Svetlana",
+          "lastName": "Trukhina"
+        }
+      },
+      {
+        "id": 22475,
+        "comment": "Спасибо за неоднократную помощь в чате",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T06:42:02.545Z",
+        "user_id": 69165,
+        "githubId": "istiniel",
+        "firstName": "Edmon",
+        "lastName": "Kazaryan",
+        "countryName": "Russia",
+        "cityName": "Krasnodar",
+        "activist": null,
+        "from": {
+          "githubId": "yaroslavagd",
+          "firstName": "Yaroslava",
+          "lastName": "Hryzadubova"
+        }
+      },
+      {
+        "id": 22474,
+        "comment": "Спасибо огромное за помощь, сэкономил часов 5 моего сна  <3",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-18T05:15:17.940Z",
+        "user_id": 18624,
+        "githubId": "roshik14",
+        "firstName": "Rashid",
+        "lastName": "Zhumadilov",
+        "countryName": "Russia",
+        "cityName": "Novosibirsk",
+        "activist": false,
+        "from": {
+          "githubId": "aleksaroad",
+          "firstName": "Aleksandra",
+          "lastName": "Bezrodnaia"
+        }
+      },
+      {
+        "id": 22473,
+        "comment": "Once again, thank you so much for your insightful lecture and time you spent with us :sparkles:",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:42:18.256Z",
+        "user_id": 21353,
+        "githubId": "newalexey",
+        "firstName": "Alexey",
+        "lastName": "Krupenia",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "juliabel5",
+          "firstName": "Yuliya",
+          "lastName": "Chekan"
+        }
+      },
+      {
+        "id": 22472,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:54.873Z",
+        "user_id": 81595,
+        "githubId": "nelllyai",
+        "firstName": "Nelly",
+        "lastName": "Nikitina",
+        "countryName": "Russia",
+        "cityName": "Nijniy Novgorod",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22471,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:00.748Z",
+        "user_id": 64257,
+        "githubId": "romangargosow",
+        "firstName": "Raman",
+        "lastName": "Harhosau",
+        "countryName": "Poland",
+        "cityName": "Białystok",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22470,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:00.747Z",
+        "user_id": 79437,
+        "githubId": "miu-cz",
+        "firstName": "Igor",
+        "lastName": "Mykhailenko",
+        "countryName": "Czechia",
+        "cityName": "Ostrava",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22469,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:00.747Z",
+        "user_id": 67104,
+        "githubId": "epifunchik",
+        "firstName": "Olga",
+        "lastName": "Ausianik",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22468,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:00.747Z",
+        "user_id": 49450,
+        "githubId": "shtaket1032",
+        "firstName": "Vasiliy",
+        "lastName": "Vasiliev",
+        "countryName": "Russia",
+        "cityName": "Bryansk",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22467,
+        "comment": "Thank you to check my work. Your feedback helps me to find my mistake.",
+        "badgeId": "Thank_you",
+        "date": "2023-08-18T01:04:00.747Z",
+        "user_id": 70214,
+        "githubId": "alexey888888",
+        "firstName": "Aliaksei",
+        "lastName": "Baradaka",
+        "countryName": "Bulgaria",
+        "cityName": "Sofia",
+        "activist": null,
+        "from": {
+          "githubId": "sabohatfrontend",
+          "firstName": "Sabohat",
+          "lastName": "Sobirova"
+        }
+      },
+      {
+        "id": 22466,
+        "comment": "Thank you very much for your great advices and code review",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T23:40:10.878Z",
+        "user_id": 34968,
+        "githubId": "bambloov",
+        "firstName": "Egor",
+        "lastName": "Gavrilenko",
+        "countryName": "Russia",
+        "cityName": "Zelenograd",
+        "activist": false,
+        "from": {
+          "githubId": "istiniel",
+          "firstName": "Edmon",
+          "lastName": "Kazaryan"
+        }
+      },
+      {
+        "id": 22465,
+        "comment": "Many many many thanks for helping to understand the task!\nhttps://media.tenor.com/XYvg-iC6PT4AAAAM/yup-yes.gif",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-17T23:10:12.103Z",
+        "user_id": 34968,
+        "githubId": "bambloov",
+        "firstName": "Egor",
+        "lastName": "Gavrilenko",
+        "countryName": "Russia",
+        "cityName": "Zelenograd",
+        "activist": false,
+        "from": {
+          "githubId": "ivanmakarishchev",
+          "firstName": "Ivan",
+          "lastName": "Makaryshchev"
+        }
+      },
+      {
+        "id": 22464,
+        "comment": "Спасибо за повторную проверку library part 2!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T21:21:07.198Z",
+        "user_id": 76727,
+        "githubId": "melodeath44",
+        "firstName": "Vitaly",
+        "lastName": "Parkhamovich",
+        "countryName": "Belarus",
+        "cityName": "Бобруйск",
+        "activist": null,
+        "from": {
+          "githubId": "schemingcate",
+          "firstName": "Ekaterina",
+          "lastName": "Pavlova"
+        }
+      },
+      {
+        "id": 22463,
+        "comment": "Спасибо за повторную проверку library part 2!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T21:19:25.356Z",
+        "user_id": 43085,
+        "githubId": "artemtur",
+        "firstName": "Artem",
+        "lastName": "Turulin",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": false,
+        "from": {
+          "githubId": "schemingcate",
+          "firstName": "Ekaterina",
+          "lastName": "Pavlova"
+        }
+      },
+      {
+        "id": 22462,
+        "comment": "Спасибо за помощь с env файлом <3",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-17T21:19:00.202Z",
+        "user_id": 70736,
+        "githubId": "alwaysadevzero",
+        "firstName": "Anton",
+        "lastName": "Tarakanov",
+        "countryName": "Georgia",
+        "cityName": "Batumi",
+        "activist": null,
+        "from": {
+          "githubId": "aleksaroad",
+          "firstName": "Aleksandra",
+          "lastName": "Bezrodnaia"
+        }
+      },
+      {
+        "id": 22461,
+        "comment": "спасибо за помощь в работе  с запросами по регистрации",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T21:12:49.003Z",
+        "user_id": 46452,
+        "githubId": "sosukii",
+        "firstName": "Svetlana",
+        "lastName": "Trukhina",
+        "countryName": "Russia",
+        "cityName": "Novosibirsk",
+        "activist": null,
+        "from": {
+          "githubId": "helgazhizhka",
+          "firstName": "Helga",
+          "lastName": "Zhizhka"
+        }
+      },
+      {
+        "id": 22460,
+        "comment": "Спасибо за помощь в вопросе центрирования надписей в футере ;)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T20:57:11.345Z",
+        "user_id": 52310,
+        "githubId": "sabohatfrontend",
+        "firstName": "Sabohat",
+        "lastName": "Sobirova",
+        "countryName": "Uzbekistan",
+        "cityName": "Uzbekistan",
+        "activist": null,
+        "from": {
+          "githubId": "svetlaya87",
+          "firstName": "Svitlana",
+          "lastName": "Vorobiova"
+        }
+      },
+      {
+        "id": 22459,
+        "comment": "Спасибо за помощь в вопросе центрирования надписей в футере ;)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T20:57:11.345Z",
+        "user_id": 66683,
+        "githubId": "skayer81",
+        "firstName": "Sergey",
+        "lastName": "Seleznev",
+        "countryName": "Russia",
+        "cityName": "Rybinsk",
+        "activist": null,
+        "from": {
+          "githubId": "svetlaya87",
+          "firstName": "Svitlana",
+          "lastName": "Vorobiova"
+        }
+      },
+      {
+        "id": 22458,
+        "comment": "Thank you very much for the detailed and conscientious cross-check!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T20:41:23.194Z",
+        "user_id": 61562,
+        "githubId": "andreizaretski",
+        "firstName": "Andrei",
+        "lastName": "Zaretski",
+        "countryName": "Belarus",
+        "cityName": "Minsk",
+        "activist": null,
+        "from": {
+          "githubId": "yvolha",
+          "firstName": "Volha",
+          "lastName": "Yakauleva"
+        }
+      },
+      {
+        "id": 22457,
+        "comment": "Всем бы таких проверяющих) Спасибо еще раз! Огромная благодарность! Не за оценку! А за действительно грамотные советы, благодаря которым моя работа мне нравится еще больше! Миллион раз спасибо)",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T20:24:15.306Z",
+        "user_id": 82443,
+        "githubId": "bolotinalexey",
+        "firstName": "Oleksii",
+        "lastName": "Bolotin",
+        "countryName": "Poland",
+        "cityName": "Łódź",
+        "activist": null,
+        "from": {
+          "githubId": "tishakot",
+          "firstName": "Yiliya",
+          "lastName": "Tsikhanovich"
+        }
+      },
+      {
+        "id": 22456,
+        "comment": "\"Лучший ментор в мире\" — это тот, кто не просто передаёт знания, но и вдохновляет, мотивирует, и поддерживает своих учеников. Этот человек умеет слушать, находит индивидуальный подход к каждому и помогает раскрыть потенциал учащегося. Он не только эксперт в своей области, но и обладает уникальными человеческими качествами, которые делают процесс обучения не только эффективным, но и захватывающим. Наставничество — это искусство, и лучший ментор в мире — настоящий мастер своего дела.",
+        "badgeId": "Expert_help",
+        "date": "2023-08-17T19:01:38.003Z",
+        "user_id": 50086,
+        "githubId": "jirisimonov",
+        "firstName": "George",
+        "lastName": "Simonov",
+        "countryName": "Russia",
+        "cityName": "Kirov",
+        "activist": null,
+        "from": {
+          "githubId": "alwaysadevzero",
+          "firstName": "Anton",
+          "lastName": "Tarakanov"
+        }
+      },
+      {
+        "id": 22455,
+        "comment": "\"Лучший ментор в мире\" — это тот, кто не просто передаёт знания, но и вдохновляет, мотивирует, и поддерживает своих учеников. Этот человек умеет слушать, находит индивидуальный подход к каждому и помогает раскрыть потенциал учащегося. Он не только эксперт в своей области, но и обладает уникальными человеческими качествами, которые делают процесс обучения не только эффективным, но и захватывающим. Наставничество — это искусство, и лучший ментор в мире — настоящий мастер своего дела.",
+        "badgeId": "Expert_help",
+        "date": "2023-08-17T19:00:30.832Z",
+        "user_id": 50086,
+        "githubId": "jirisimonov",
+        "firstName": "George",
+        "lastName": "Simonov",
+        "countryName": "Russia",
+        "cityName": "Kirov",
+        "activist": null,
+        "from": {
+          "githubId": "alwaysadevzero",
+          "firstName": "Anton",
+          "lastName": "Tarakanov"
+        }
+      },
+      {
+        "id": 22454,
+        "comment": "Благодаря тебе я впервые за весь этот год, что обучаюсь на курсе, обратила внимание на разницу между width и device-width :D Помимо этого, я благодарна за возможность исправить работу!",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-17T18:04:06.258Z",
+        "user_id": 65813,
+        "githubId": "programissis",
+        "firstName": "Vitalia",
+        "lastName": "Tereschenko",
+        "countryName": "Uzbekistan",
+        "cityName": "Tashkent",
+        "activist": null,
+        "from": {
+          "githubId": "koonukaame",
+          "firstName": "Mariya",
+          "lastName": "Lezhebokova"
+        }
+      },
+      {
+        "id": 22453,
+        "comment": "Спасибо за внимание к мелким деталям, за объективную оценку и за перепроверку моей работы, я очень ценю это!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T18:00:26.168Z",
+        "user_id": 73949,
+        "githubId": "cupchik1",
+        "firstName": "Alina",
+        "lastName": "Bezuhla",
+        "countryName": "Ukraine",
+        "cityName": "Odesa",
+        "activist": null,
+        "from": {
+          "githubId": "koonukaame",
+          "firstName": "Mariya",
+          "lastName": "Lezhebokova"
+        }
+      },
+      {
+        "id": 22452,
+        "comment": "Спасибо огромное. Очень выручил с react & typescript.",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-17T17:41:56.310Z",
+        "user_id": 32554,
+        "githubId": "dino19981",
+        "firstName": "Artem",
+        "lastName": "Stepanov",
+        "countryName": "Russia",
+        "cityName": "Samara",
+        "activist": false,
+        "from": {
+          "githubId": "radzivonn",
+          "firstName": "Radzivon",
+          "lastName": "Siarozhankau"
+        }
+      },
+      {
+        "id": 22451,
+        "comment": "Спасибо огромное за помощь с react & typescript. Сэкономил огромную кучу сил и времени.",
+        "badgeId": "Helping_hand",
+        "date": "2023-08-17T17:33:49.120Z",
+        "user_id": 32554,
+        "githubId": "dino19981",
+        "firstName": "Artem",
+        "lastName": "Stepanov",
+        "countryName": "Russia",
+        "cityName": "Samara",
+        "activist": false,
+        "from": {
+          "githubId": "radzivonn",
+          "firstName": "Radzivon",
+          "lastName": "Siarozhankau"
+        }
+      },
+      {
+        "id": 22450,
+        "comment": "Выражаю благодарность за подробную и объективную оценку недостатков моей работы, благодаря таким как ты, - я становлюсь лучше. Успехов в нашем нелегком деле!",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T16:24:06.481Z",
+        "user_id": 76996,
+        "githubId": "sinsqlamy",
+        "firstName": "Denis",
+        "lastName": "Semenov",
+        "countryName": "Russia",
+        "cityName": "Kaliningrad",
+        "activist": null,
+        "from": {
+          "githubId": "mdviktor",
+          "firstName": "Viktor ",
+          "lastName": "Morozov "
+        }
+      },
+      {
+        "id": 22449,
+        "comment": "Огромное спасибо за возможность исправить оценку и за подробные полезные  комментарии касаемо каждого пункта. ",
+        "badgeId": "Thank_you",
+        "date": "2023-08-17T16:18:51.617Z",
+        "user_id": 82443,
+        "githubId": "bolotinalexey",
+        "firstName": "Oleksii",
+        "lastName": "Bolotin",
+        "countryName": "Poland",
+        "cityName": "Łódź",
+        "activist": null,
+        "from": {
+          "githubId": "tishakot",
+          "firstName": "Yiliya",
+          "lastName": "Tsikhanovich"
+        }
+      }
+    ]
+  }
+}
