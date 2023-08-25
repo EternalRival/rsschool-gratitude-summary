@@ -7,6 +7,6 @@ export const buildStudent = (list: Gratitude[]) => {
     const recipients = buildRecipients(list)(github)
     const inSum = arraySum(Array.from(senders.values()))
     const outSum = arraySum(Array.from(recipients.values()))
-    return { github, senders, recipients, inSum, outSum }
+    return { github, inSum, outSum, senders, recipients }
   }
 }
