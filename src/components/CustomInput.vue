@@ -9,11 +9,16 @@ const handleInput = (e: Event) => {
 </script>
 
 <template>
-  <div class="field label prefix small border">
+  <div class="username-field field label prefix small border">
     <i>search</i>
     <input @input="handleInput" />
     <label>Username</label>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.username-field {
+  grid-area: username-field;
+  margin: 0;
+}
+</style>
