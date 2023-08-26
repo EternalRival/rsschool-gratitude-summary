@@ -71,7 +71,9 @@ const kek = (pagination: UnwrapNestedRefs<UseOffsetPaginationReturn>) => {
       <tr v-for="(row, i) in slicedTable" :key="i">
         <td class="left-align">
           {{ i + getFirstItemIndex() + 1 }}.
-          <a :href="`https://github.com/${row.github}`" class="link underline">{{ row.github }}</a>
+          <a :href="`https://github.com/${row.github}`" target="_blank" class="link underline">
+            {{ row.github }}
+          </a>
         </td>
         <td>
           <StudentListButton :list="row.senders" :size="row.inSum" />
