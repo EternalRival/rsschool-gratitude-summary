@@ -1,6 +1,4 @@
-export const baseUrl = 'https://app.rs.school'
-export const endpoint = '/api/feedback/gratitude'
+const isProd = 1
 
-/* export const baseUrl = 'http://localhost:5173'
-export const endpoint = '/mock.json'
- */
+export const baseUrl = isProd ? 'https://app.rs.school' : 'http://localhost:5173'
+export const endpoint = isProd ? '/api/feedback/gratitude' : '/mock.json'

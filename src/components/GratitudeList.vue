@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useInfiniteScroll } from '@vueuse/core'
 import type { Student } from '@/shared/interfaces'
+import { StudentsModal } from '@/components'
 
 const props = defineProps({
   username: { type: String, required: true },
@@ -43,13 +44,19 @@ useInfiniteScroll(
   { distance }
 )
 
+const modalStudentList = ref<Map<string, number> | null>(null)
 const displayStudents = (students: Map<string, number>) => {
-  console.table(Object.fromEntries(students))
+  modalStudentList.value = students
 }
 </script>
 
 <template>
-  <div class="grid no-space center-align" ref="watchedElement">
+  <StudentsModal
+    v-if="modalStudentList"
+    :students="modalStudentList"
+    @modal-close="modalStudentList = null"
+  />
+  <div class="gratitude-list grid no-space center-align" ref="watchedElement">
     <div :class="`s${tableSizes[0]} padding middle-align bold elevate`">Github</div>
     <div :class="`s${tableSizes[1]} tiny-padding elevate`">
       <button class="circle transparent" @click="handleSortClick('senders')">
@@ -85,5 +92,9 @@ const displayStudents = (students: Map<string, number>) => {
 <style scoped>
 .list-index {
   width: 2.5em;
+}
+
+.gratitude-list {
+  overflow-y: auto;
 }
 </style>

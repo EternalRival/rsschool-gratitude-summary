@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CustomInput, GratitudeList, CubeLoader } from '@/components'
+import { UsernameInput, GratitudeList, CubeLoader } from '@/components'
 import { buildStudents, parseGratitudes, fetchGratitudes } from '@/shared/helpers'
 import { computedAsync } from '@vueuse/core'
 
@@ -20,8 +20,8 @@ const table = computedAsync(async () => {
 
 <template>
   <main v-if="!responses || responses.every((response) => response.ok)" class="small-padding">
-    <CustomInput class="username-input" @username-change="username = $event" />
-    <GratitudeList v-if="table.length" class="gratitude-list" :username="username" :table="table" />
+    <UsernameInput @username-change="username = $event" />
+    <GratitudeList v-if="table.length" :username="username" :table="table" />
     <CubeLoader v-else />
   </main>
   <main v-else class="middle-align center-align">
@@ -35,19 +35,4 @@ const table = computedAsync(async () => {
   </main>
 </template>
 
-<style scoped>
-main {
-  width: 480px;
-  height: 480px;
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-}
-.username-input {
-  flex-shrink: 0;
-  margin: 0;
-}
-.gratitude-list {
-  overflow-y: auto;
-}
-</style>
+<style scoped></style>

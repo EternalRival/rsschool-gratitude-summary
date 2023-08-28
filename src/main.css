@@ -1,0 +1,23 @@
+body {
+  width: 480px;
+  height: 480px;
+}
+
+#app {
+  width: inherit;
+  height: inherit;
+}
+
+main {
+  width: inherit;
+  height: inherit;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  background-color: #00000030;
+  inset: 0;
+  z-index: 5;
+}

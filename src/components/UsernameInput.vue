@@ -9,11 +9,16 @@ const handleInput = (e: Event) => {
 </script>
 
 <template>
-  <div class="field label prefix small border">
+  <div class="username-input field label prefix small border">
     <i>search</i>
     <input @input="handleInput" />
     <label>Username</label>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.username-input {
+  flex-shrink: 0;
+  margin: 0;
+}
+</style>

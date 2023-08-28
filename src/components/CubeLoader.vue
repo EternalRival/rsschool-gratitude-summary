@@ -2,24 +2,13 @@
 
 <template>
   <Teleport to="body">
-    <div class="wrapper">
+    <div class="wrapper absolute small-blur middle-align center-align">
       <div class="cube"><div v-for="n in 6" :key="n"></div></div>
     </div>
   </Teleport>
 </template>
 
 <style scoped>
-.wrapper {
-  position: fixed;
-  background-color: #00000030;
-  backdrop-filter: blur(2px);
-  inset: 0;
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @-webkit-keyframes cube {
   0% {
     -webkit-transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);

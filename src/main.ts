@@ -1,3 +1,4 @@
+import './main.css'
 import 'beercss'
 
 import { createApp } from 'vue'
