@@ -1,106 +1,89 @@
 <script setup lang="ts">
-import { computed, ref, type UnwrapNestedRefs } from 'vue'
-import { type UseOffsetPaginationReturn } from '@vueuse/core'
-import { StudentListButton } from '@/components'
+import { computed, ref } from 'vue'
+import { useInfiniteScroll } from '@vueuse/core'
 import type { Student } from '@/shared/interfaces'
-import { sortStudents } from '@/shared/helpers'
-import { UseOffsetPagination } from '@vueuse/components'
 
 const props = defineProps({
-  username: String,
-  table: Array<Student>
+  username: { type: String, required: true },
+  table: { type: Array<Student>, required: true }
 })
 
-const sortColumn = ref<'senders' | 'recipients'>('senders')
+const tableSizes = [6, 3, 3] as const
 const sortProps = { senders: 'inSum', recipients: 'outSum' } as const
+const sortColumn = ref<keyof typeof sortProps>('senders')
 
-const filteredTable = computed(() => {
-  const [table, username] = [props.table ?? [], props.username ?? '']
-  const filtered = table.filter(({ github }) => github.includes(username))
-  return sortStudents(filtered, sortProps[sortColumn.value])
+const filtered = computed(() => {
+  const { table, username } = props
+  return table.filter(({ github }) => github.includes(username))
 })
 
-const pageSize = 8
-const currentPage = ref(1)
-const getFirstItemIndex = () => {
-  return (currentPage.value - 1) * pageSize
+const sorted = computed(() => {
+  return [...filtered.value].sort((a, b) => {
+    const prop = sortProps[sortColumn.value]
+    return a[prop] === b[prop] ? a.github.localeCompare(b.github) : b[prop] - a[prop]
+  })
+})
+
+const watchedElement = ref<HTMLElement>()
+const distance = 10
+const currentLength = ref(distance)
+const rendered = computed(() => {
+  return sorted.value.slice(0, currentLength.value)
+})
+
+const handleSortClick = (column: typeof sortColumn.value) => {
+  sortColumn.value = column
+  currentLength.value = distance
 }
+useInfiniteScroll(
+  watchedElement,
+  () => {
+    currentLength.value += distance
+  },
+  { distance }
+)
 
-const slicedTable = computed(() => {
-  const firstItemIndex = getFirstItemIndex()
-  return filteredTable.value.slice(firstItemIndex, firstItemIndex + pageSize)
-})
-
-const kek = (pagination: UnwrapNestedRefs<UseOffsetPaginationReturn>) => {
-  currentPage.value = pagination.currentPage
+const displayStudents = (students: Map<string, number>) => {
+  console.table(Object.fromEntries(students))
 }
 </script>
 
 <template>
-  <UseOffsetPagination
-    v-slot="{ currentPage, prev, next }"
-    :total="() => filteredTable.length"
-    :page-size="pageSize"
-    @page-change="kek"
-  >
-    <div class="pagination">
-      <nav class="no-space">
-        <button class="border left-round no-padding" @click="prev"><i>navigate_before</i></button>
-        <button class="border no-round no-padding fill">{{ currentPage }}</button>
-        <button class="border right-round no-padding" @click="next"><i>navigate_next</i></button>
-      </nav>
+  <div class="grid no-space center-align" ref="watchedElement">
+    <div :class="`s${tableSizes[0]} padding middle-align bold elevate`">Github</div>
+    <div :class="`s${tableSizes[1]} tiny-padding elevate`">
+      <button class="circle transparent" @click="handleSortClick('senders')">
+        <i>call_received</i>
+      </button>
     </div>
-  </UseOffsetPagination>
-  <table class="gratitude-list border center-align">
-    <thead>
-      <tr>
-        <th class="left-align bold">Github</th>
-        <th class="center-align bold">
-          <button class="transparent small" @click="sortColumn = 'senders'">
-            <i>call_received</i>
-          </button>
-        </th>
-        <th class="center-align bold">
-          <button class="transparent small" @click="sortColumn = 'recipients'">
-            <i>call_made</i>
-          </button>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="(row, i) in slicedTable" :key="i">
-        <td class="left-align">
-          {{ i + getFirstItemIndex() + 1 }}.
-          <a :href="`https://github.com/${row.github}`" target="_blank" class="link underline">
-            {{ row.github }}
-          </a>
-        </td>
-        <td>
-          <StudentListButton :list="row.senders" :size="row.inSum" />
-        </td>
-        <td>
-          <StudentListButton :list="row.recipients" :size="row.outSum" />
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    <div :class="`s${tableSizes[2]} tiny-padding elevate`">
+      <button class="circle transparent" @click="handleSortClick('recipients')">
+        <i>call_made</i>
+      </button>
+    </div>
+    <template v-for="(el, i) in rendered" :key="i">
+      <div :class="`s${tableSizes[0]} middle-align elevate github`">
+        <a target="_blank" class="small-padding" :href="`https://github.com/${el.github}`">
+          <div class="list-index center-align">{{ i + 1 }}.</div>
+          <span class="link underline">{{ el.github }}</span>
+        </a>
+      </div>
+      <div :class="`s${tableSizes[1]} elevate small-padding`">
+        <button class="chip elevate" @click="displayStudents(el.senders)">
+          {{ el.inSum }}<i>patient_list</i>
+        </button>
+      </div>
+      <div :class="`s${tableSizes[2]} elevate small-padding`">
+        <button class="chip elevate" @click="displayStudents(el.recipients)">
+          {{ el.outSum }}<i>patient_list</i>
+        </button>
+      </div>
+    </template>
+  </div>
 </template>
 
 <style scoped>
-.pagination {
-  grid-area: pagination;
-  display: flex;
-  align-items: center;
-}
-.pagination .field {
-  margin: 0;
-  width: 3em;
-}
-.pagination input {
-  padding: 0;
-  text-align: center;
-}
-.gratitude-list {
-  grid-area: gratitude-list;
+.list-index {
+  width: 2.5em;
 }
 </style>

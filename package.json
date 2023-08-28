@@ -10,10 +10,10 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "build:watch": "vite build --watch"
   },
   "dependencies": {
-    "@vueuse/components": "^10.3.0",
     "@vueuse/core": "^10.3.0",
     "beercss": "^3.3.2",
     "vue": "^3.3.4"
