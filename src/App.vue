@@ -6,20 +6,20 @@ import { computedAsync } from '@vueuse/core'
 
 const username = ref('')
 
-const response = computedAsync(() => fetchGratitudes(), null)
-
+const responses = computedAsync(() => fetchGratitudes(), null)
 const table = computedAsync(async () => {
-  if (!response.value?.ok) {
-    return []
+  if (responses.value?.every((response) => response.ok)) {
+    const promises = responses.value.map(parseGratitudes)
+    const gratitudes = await Promise.all(promises)
+    const students = buildStudents(gratitudes.flat())
+    return Array.from(students.values())
   }
-  const gratitudes = await parseGratitudes(response.value)
-  const students = buildStudents(gratitudes)
-  return Array.from(students.values())
+  return []
 }, [])
 </script>
 
 <template>
-  <main v-if="response?.ok !== false" class="small-padding">
+  <main v-if="!responses || responses.every((response) => response.ok)" class="small-padding">
     <CustomInput class="username-input" @username-change="username = $event" />
     <GratitudeList v-if="table.length" class="gratitude-list" :username="username" :table="table" />
     <CubeLoader v-else />
