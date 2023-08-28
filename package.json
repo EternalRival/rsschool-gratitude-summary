@@ -1,7 +1,7 @@
 {
   "name": "rsschool-gratitude-summary",
   "description": "Rolling Scopes School Gratitude Summary Extension",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,8 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "build:watch": "vite build --watch"
+    "build:watch": "vite build --watch",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
     "@vueuse/core": "^10.3.0",

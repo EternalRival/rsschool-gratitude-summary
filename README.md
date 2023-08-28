@@ -1,46 +1,37 @@
 # rsschool-gratitude-summary
 
-This template should help get you started developing with Vue 3 in Vite.
+## Summary
 
-## Recommended IDE Setup
+- [Demo](#demo)
+- [Usage](#usage)
+- [Download](#download)
+- [Install](#install)
+- [Uninstall](#uninstall)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Demo
 
-## Type Support for `.vue` Imports in TS
+![demo](https://github.com/EternalRival/rsschool-gratitude-summary/assets/59611223/ff506148-8db5-4f5f-acd9-7c86923feb9f)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Usage
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. click to extension icon (u can pin it)
+2. go to [app.rs.school](https://app.rs.school/) page and log in
+3. filter, sort, click whatever u want ([demo](#demo))
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Download
 
-## Customize configuration
+1. go to [releases](https://github.com/EternalRival/rsschool-gratitude-summary/releases) page
+2. download latest release
+3. unpack archive somewhere
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Install
 
-## Project Setup
+1. open [chrome extensions](chrome://extensions/) page
+2. enable developer mode
+3. click `load unpacked` button and pick extension directory
 
-```sh
-npm install
-```
+## Uninstall
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. open [chrome extensions](chrome://extensions/) page
+2. click `remove` button
+3. remove extension directory
