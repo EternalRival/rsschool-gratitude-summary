@@ -76,12 +76,12 @@ const displayStudents = (students: Map<string, number>) => {
         </a>
       </div>
       <div :class="`s${tableSizes[1]} elevate small-padding`">
-        <button class="chip elevate" @click="displayStudents(el.senders)">
+        <button class="chip elevate" @click="displayStudents(el.senders)" :disabled="!el.inSum">
           {{ el.inSum }}<i>patient_list</i>
         </button>
       </div>
       <div :class="`s${tableSizes[2]} elevate small-padding`">
-        <button class="chip elevate" @click="displayStudents(el.recipients)">
+        <button class="chip elevate" @click="displayStudents(el.recipients)" :disabled="!el.outSum">
           {{ el.outSum }}<i>patient_list</i>
         </button>
       </div>
