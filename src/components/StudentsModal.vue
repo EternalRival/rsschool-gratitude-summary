@@ -3,12 +3,12 @@ import { onClickOutside } from '@vueuse/core'
 import { ref } from 'vue'
 
 const props = defineProps({
-  students: { type: Map<any, any>, required: true }
+  students: { type: Array<[String, Number]>, required: true }
 })
 
 const emit = defineEmits(['modal-close'])
 
-const studentList = ref()
+const studentList = ref<HTMLElement>()
 
 onClickOutside(studentList, () => emit('modal-close'))
 </script>

@@ -1,4 +1,3 @@
-export * from './array-sum'
 export * from './build-recipients'
 export * from './build-senders'
 export * from './build-student'

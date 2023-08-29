@@ -14,7 +14,5 @@ export const buildRecipients = (list: Gratitude[]) => (user: string) => {
     return counterA === counterB ? nameA.localeCompare(nameB) : counterB - counterA
   })
 
-  const hashMap = new Map(sortedCounters)
-
-  return hashMap
+  return sortedCounters
 }

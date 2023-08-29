@@ -3,28 +3,35 @@ import { ref } from 'vue'
 import { UsernameInput, GratitudeList, CubeLoader } from '@/components'
 import { buildStudents, parseGratitudes, fetchGratitudes } from '@/shared/helpers'
 import { computedAsync } from '@vueuse/core'
+import type { Student } from './shared/interfaces'
 
 const username = ref('')
 
-const responses = computedAsync(() => fetchGratitudes(), null)
-const table = computedAsync(async () => {
-  if (responses.value?.every((response) => response.ok)) {
-    const promises = responses.value.map(parseGratitudes)
-    const gratitudes = await Promise.all(promises)
-    const students = buildStudents(gratitudes.flat())
-    return Array.from(students.values())
+const table = computedAsync<Student[]>(async () => {
+  const { cachedStudents } = await chrome.storage.local.get('cachedStudents')
+  const now = Date.now()
+  const cacheTimeLimit = 5 * 60 * 1000
+
+  if (now - cachedStudents?.time < cacheTimeLimit) {
+    return cachedStudents.data
   }
-  return []
-}, [])
+
+  const responses = await fetchGratitudes()
+  if (responses.some(({ ok }) => !ok)) {
+    return null
+  }
+
+  const promises = responses.map(parseGratitudes)
+  const gratitudes = await Promise.all(promises)
+  const students = buildStudents(gratitudes.flat())
+
+  await chrome.storage.local.set({ cachedStudents: { data: students, time: now } })
+  return students
+})
 </script>
 
 <template>
-  <main v-if="!responses || responses.every((response) => response.ok)" class="small-padding">
-    <UsernameInput @username-change="username = $event" />
-    <GratitudeList v-if="table.length" :username="username" :table="table" />
-    <CubeLoader v-else />
-  </main>
-  <main v-else class="middle-align center-align">
+  <main v-if="table === null" class="middle-align center-align">
     <a
       href="https://app.rs.school/"
       target="_blank"
@@ -32,6 +39,11 @@ const table = computedAsync(async () => {
     >
       <h2>https://app.rs.school/</h2>
     </a>
+  </main>
+  <main v-else class="small-padding">
+    <UsernameInput @username-change="username = $event" />
+    <CubeLoader v-if="!table" />
+    <GratitudeList v-else :username="username" :table="table" />
   </main>
 </template>
 

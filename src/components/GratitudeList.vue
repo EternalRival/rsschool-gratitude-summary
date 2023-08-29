@@ -44,8 +44,8 @@ useInfiniteScroll(
   { distance }
 )
 
-const modalStudentList = ref<Map<string, number> | null>(null)
-const displayStudents = (students: Map<string, number>) => {
+const modalStudentList = ref<[string, number][] | null>(null)
+const displayStudents = (students: [string, number][]) => {
   modalStudentList.value = students
 }
 </script>
