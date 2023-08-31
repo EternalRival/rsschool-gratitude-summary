@@ -17,7 +17,7 @@ onClickOutside(studentList, () => emit('modal-close'))
   <Teleport to="body">
     <div class="wrapper absolute">
       <div class="grid background no-space large-elevate padding" ref="studentList">
-        <template v-for="([name, num], i) in props.students" :key="i">
+        <template v-for="[name, num] in props.students" :key="name">
           <div class="s2 border tiny-padding center-align">{{ num }}</div>
           <div class="s10 border tiny-padding">
             <a :href="`https://github.com/${name}`">{{ name }}</a>

@@ -68,7 +68,7 @@ const displayStudents = (students: [string, number][]) => {
         <i>call_made</i>
       </button>
     </div>
-    <template v-for="(el, i) in rendered" :key="i">
+    <template v-for="(el, i) in rendered" :key="el.github">
       <div :class="`s${tableSizes[0]} middle-align elevate github`">
         <a target="_blank" class="small-padding" :href="`https://github.com/${el.github}`">
           <div class="list-index center-align">{{ i + 1 }}.</div>
