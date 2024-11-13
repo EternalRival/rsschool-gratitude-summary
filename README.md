@@ -10,7 +10,7 @@
 
 ## Demo
 
-![demo](https://github.com/EternalRival/rsschool-gratitude-summary/assets/59611223/ff506148-8db5-4f5f-acd9-7c86923feb9f)
+![demo](https://github.com/user-attachments/assets/07c5eaba-ab4e-4d8b-a826-b39cf3bd9ed0)
 
 ## Usage
 
