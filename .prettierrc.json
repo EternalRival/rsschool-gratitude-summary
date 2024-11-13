@@ -1,7 +1,11 @@
-
 {
-  "$schema": "https://json.schemastore.org/prettierrc",
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "strict",
+  "printWidth": 120,
+  "quoteProps": "consistent",
   "semi": false,
+  "singleAttributePerLine": true,
   "singleQuote": true,
-  "printWidth": 100
+  "trailingComma": "es5",
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
