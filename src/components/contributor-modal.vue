@@ -33,6 +33,7 @@ defineEmits<{ close: [] }>()
           <span class="border bg-white p-1 text-center">{{ item.count }}</span>
           <a
             :href="`${GITHUB_URL}${item.github}`"
+            :title="`${GITHUB_URL}${item.github}`"
             :class="clsx('overflow-x-hidden text-ellipsis border bg-white p-1', 'hover:bg-neutral-100')"
           >
             {{ item.github }}

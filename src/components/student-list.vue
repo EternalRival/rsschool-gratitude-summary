@@ -107,12 +107,14 @@ watch(() => props.studentList, resetInfiniteScroll)
       <span class="border bg-white p-1.5 text-center">{{ index + 1 }}</span>
       <a
         :href="`${GITHUB_URL}${student.github}`"
+        :title="`${GITHUB_URL}${student.github}`"
         :class="clsx('overflow-x-hidden text-ellipsis border bg-white p-1.5', 'hover:bg-neutral-100')"
       >
         {{ student.github }}
       </a>
       <button
         @click="$emit('openContributorsModal', student.senders.list)"
+        :title="`from ${student.senders.list.length} contributors`"
         :class="clsx('border bg-white p-1.5', 'hover:enabled:bg-neutral-100')"
         :disabled="student.senders.count < 1"
       >
@@ -120,6 +122,7 @@ watch(() => props.studentList, resetInfiniteScroll)
       </button>
       <button
         @click="$emit('openContributorsModal', student.receivers.list)"
+        :title="`to ${student.receivers.list.length} contributors`"
         :class="clsx('border bg-white p-1.5', 'hover:enabled:bg-neutral-100')"
         :disabled="student.receivers.count < 1"
       >
