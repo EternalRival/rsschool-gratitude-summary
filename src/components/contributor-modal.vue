@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import clsx from 'clsx'
 import type { Contributor } from '~/utils/get-gratitudes-summary'
 
 const GITHUB_URL = 'https://github.com/'
@@ -18,12 +17,10 @@ defineEmits<{ close: [] }>()
       @click="$event.target === $event.currentTarget && $emit('close')"
     >
       <ul
-        :class="
-          clsx(
-            'grid max-h-[min(20rem,calc(100dvh-2rem))] w-60 grid-cols-[2.5rem_auto] overflow-auto border bg-white shadow-lg',
-            '[&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-track]:bg-neutral-100 [&::-webkit-scrollbar]:w-2'
-          )
-        "
+        :class="[
+          'grid max-h-[min(20rem,calc(100dvh-2rem))] w-60 grid-cols-[2.5rem_auto] border bg-white shadow-lg',
+          'overflow-auto [&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-track]:bg-neutral-100 [&::-webkit-scrollbar]:w-2',
+        ]"
       >
         <li
           v-for="item in contributorList"
@@ -34,7 +31,7 @@ defineEmits<{ close: [] }>()
           <a
             :href="`${GITHUB_URL}${item.github}`"
             :title="`${GITHUB_URL}${item.github}`"
-            :class="clsx('overflow-x-hidden text-ellipsis border bg-white p-1', 'hover:bg-neutral-100')"
+            :class="['overflow-x-hidden text-ellipsis border bg-white p-1', 'hover:bg-neutral-100']"
           >
             {{ item.github }}
           </a>

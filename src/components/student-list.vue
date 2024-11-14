@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useInfiniteScroll } from '@vueuse/core'
-import clsx from 'clsx'
 import { computed, ref, watch } from 'vue'
 import type { Contributor, Student } from '~/utils/get-gratitudes-summary'
 
@@ -38,6 +37,8 @@ const incrementInfiniteScrollLength = () => {
   infiniteScrollLength.value += PAGE_SIZE
 }
 
+const getContributorListButtonTitle = (count: number) => `${count} ${count === 1 ? 'contributor' : 'contributors'}`
+
 const handleChangeSortMode = (newSortMode: SortMode) => {
   sortMode.value = newSortMode
   resetInfiniteScroll()
@@ -51,12 +52,10 @@ watch(() => props.studentList, resetInfiniteScroll)
 <template>
   <ul
     ref="infiniteScrollElement"
-    :class="
-      clsx(
-        'grid grid-cols-[min-content_auto_repeat(2,5rem)]',
-        'max-h-[442px] overflow-y-auto [&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-track]:bg-neutral-100 [&::-webkit-scrollbar]:w-2'
-      )
-    "
+    :class="[
+      'grid grid-cols-[min-content_auto_repeat(2,5rem)]',
+      'max-h-[442px] overflow-y-auto [&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-track]:bg-neutral-100 [&::-webkit-scrollbar]:w-2',
+    ]"
   >
     <li class="contents">
       <span class="sticky top-0 border bg-neutral-200 p-1.5 text-center font-medium">№</span>
@@ -65,27 +64,23 @@ watch(() => props.studentList, resetInfiniteScroll)
       </span>
       <button
         @click="handleChangeSortMode('received-desc')"
-        :class="
-          clsx(
-            'sticky top-0 border bg-neutral-200 p-1.5 font-medium',
-            'hover:border-neutral-300 hover:bg-neutral-300',
-            'focus-visible:bg-neutral-300 focus-visible:outline-1',
-            sortMode === 'received-desc' && 'border-neutral-300 bg-neutral-300'
-          )
-        "
+        :class="[
+          'sticky top-0 border bg-neutral-200 p-1.5 font-medium',
+          'hover:border-neutral-300 hover:bg-neutral-300',
+          'focus-visible:bg-neutral-300 focus-visible:outline-1',
+          sortMode === 'received-desc' && 'border-neutral-300 bg-neutral-300',
+        ]"
       >
         Received
       </button>
       <button
         @click="handleChangeSortMode('sent-desc')"
-        :class="
-          clsx(
-            'sticky top-0 border bg-neutral-200 p-1.5 font-medium',
-            'hover:border-neutral-300 hover:bg-neutral-300',
-            'focus-visible:bg-neutral-300 focus-visible:outline-1',
-            sortMode === 'sent-desc' && 'border-neutral-300 bg-neutral-300'
-          )
-        "
+        :class="[
+          'sticky top-0 border bg-neutral-200 p-1.5 font-medium',
+          'hover:border-neutral-300 hover:bg-neutral-300',
+          'focus-visible:bg-neutral-300 focus-visible:outline-1',
+          sortMode === 'sent-desc' && 'border-neutral-300 bg-neutral-300',
+        ]"
       >
         Sent
       </button>
@@ -99,7 +94,7 @@ watch(() => props.studentList, resetInfiniteScroll)
     </li>
 
     <li
-      v-else
+      v-else 
       v-for="(student, index) in currentStudentList"
       class="contents"
       :key="`${student.github}${student.receivers.count}${student.senders.count}`"
@@ -108,22 +103,22 @@ watch(() => props.studentList, resetInfiniteScroll)
       <a
         :href="`${GITHUB_URL}${student.github}`"
         :title="`${GITHUB_URL}${student.github}`"
-        :class="clsx('overflow-x-hidden text-ellipsis border bg-white p-1.5', 'hover:bg-neutral-100')"
+        :class="['overflow-x-hidden text-ellipsis border bg-white p-1.5', 'hover:bg-neutral-100']"
       >
         {{ student.github }}
       </a>
       <button
         @click="$emit('openContributorsModal', student.senders.list)"
-        :title="`from ${student.senders.list.length} contributors`"
-        :class="clsx('border bg-white p-1.5', 'hover:enabled:bg-neutral-100')"
+        :title="`from ${getContributorListButtonTitle(student.senders.list.length)}`"
+        :class="['border bg-white p-1.5', 'hover:enabled:bg-neutral-100']"
         :disabled="student.senders.count < 1"
       >
         {{ student.senders.count }}
       </button>
       <button
         @click="$emit('openContributorsModal', student.receivers.list)"
-        :title="`to ${student.receivers.list.length} contributors`"
-        :class="clsx('border bg-white p-1.5', 'hover:enabled:bg-neutral-100')"
+        :title="`to ${getContributorListButtonTitle(student.receivers.list.length)}`"
+        :class="['border bg-white p-1.5', 'hover:enabled:bg-neutral-100']"
         :disabled="student.receivers.count < 1"
       >
         {{ student.receivers.count }}
