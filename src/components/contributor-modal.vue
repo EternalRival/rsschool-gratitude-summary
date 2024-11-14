@@ -31,6 +31,8 @@ defineEmits<{ close: [] }>()
           <a
             :href="`${GITHUB_URL}${item.github}`"
             :title="`${GITHUB_URL}${item.github}`"
+            target="_blank"
+            rel="noopener noreferrer"
             :class="['overflow-x-hidden text-ellipsis border bg-white p-1', 'hover:bg-neutral-100']"
           >
             {{ item.github }}

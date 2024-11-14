@@ -94,7 +94,7 @@ watch(() => props.studentList, resetInfiniteScroll)
     </li>
 
     <li
-      v-else 
+      v-else
       v-for="(student, index) in currentStudentList"
       class="contents"
       :key="`${student.github}${student.receivers.count}${student.senders.count}`"
@@ -103,6 +103,8 @@ watch(() => props.studentList, resetInfiniteScroll)
       <a
         :href="`${GITHUB_URL}${student.github}`"
         :title="`${GITHUB_URL}${student.github}`"
+        target="_blank"
+        rel="noopener noreferrer"
         :class="['overflow-x-hidden text-ellipsis border bg-white p-1.5', 'hover:bg-neutral-100']"
       >
         {{ student.github }}
