@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:is(body) {
+  width: 30rem;
+  height: 30rem;
+  font-size: 16px;
+}
